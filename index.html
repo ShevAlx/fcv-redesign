@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>First Choice Vending &amp; Amusements — Press A1 for Refreshment</title>
+<meta name="description" content="Vending machines, micro-markets &amp; office coffee for LA and the Bay Area. 20+ years, 24/7 access, zero hassle.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2218%22 fill=%22%23C6362A%22/><text x=%2250%22 y=%2268%22 font-size=%2258%22 font-family=%22Arial Black%22 fill=%22%23F3ECD9%22 text-anchor=%22middle%22>F</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Mono:wght@400;500;600;700&family=Archivo+Black&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="#top" class="nav__brand">
+      <span class="nav__badge">FCV</span>
+      <span class="nav__brandtext">FIRST&nbsp;CHOICE<br><span>Vending &amp; Amusements</span></span>
+    </a>
+
+    <nav class="nav__links" id="navLinks">
+      <a href="#vending"><em>A1</em>Vending</a>
+      <a href="#markets"><em>A2</em>Micro&#8209;Markets</a>
+      <a href="#coffee"><em>A3</em>Office&nbsp;Coffee</a>
+      <a href="#faq"><em>A4</em>FAQ</a>
+      <a href="#contact"><em>A5</em>Contact</a>
+    </nav>
+
+    <a href="#contact" class="btn btn--vend nav__cta">
+      <span>Get&nbsp;Quote</span>
+    </a>
+
+    <button class="nav__burger" id="navBurger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="hero__inner">
+      <p class="eyebrow"><span class="dot dot--live"></span>Serving Los Angeles &amp; The Bay Area &mdash; Since 2004</p>
+      <h1 class="hero__title">
+        PRESS <span class="key">A1</span><br>
+        FOR BETTER BREAK ROOMS
+      </h1>
+      <p class="hero__sub">
+        Vending machines, micro&#8209;markets, and office coffee &mdash; installed, stocked, and
+        managed so your team never hits an empty slot. Cashless. Contactless. Always on.
+      </p>
+      <div class="hero__ctas">
+        <a href="#contact" class="btn btn--vend btn--lg">
+          <span>Free Consultation</span>
+        </a>
+        <a href="#services" class="btn btn--ghost btn--lg">
+          <span>See the Menu ↓</span>
+        </a>
+      </div>
+
+      <div class="hero__ticket">
+        <span>NO&nbsp;COST</span><span>NO&nbsp;CONTRACT&nbsp;LOCK</span><span>FULL&nbsp;SERVICE</span>
+      </div>
+    </div>
+
+    <div class="hero__machine" aria-hidden="true">
+      <div class="machine">
+        <div class="machine__glass">
+          <div class="machine__grid">
+            <div class="prod">🥤<small>B1</small></div>
+            <div class="prod">🍫<small>B2</small></div>
+            <div class="prod">🥨<small>B3</small></div>
+            <div class="prod">☕️<small>B4</small></div>
+            <div class="prod">🍎<small>B5</small></div>
+            <div class="prod">🥜<small>B6</small></div>
+            <div class="prod">🧃<small>B7</small></div>
+            <div class="prod">🍿<small>B8</small></div>
+          </div>
+          <div class="machine__scan"></div>
+        </div>
+        <div class="machine__panel">
+          <div class="led">SELECT&nbsp;ITEM</div>
+          <div class="machine__keys">
+            <span>A1</span><span>A2</span><span>A3</span><span>A4</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ STATS STRIP ============ -->
+  <section class="stats">
+    <div class="stats__inner">
+      <div class="stat">
+        <span class="stat__num" data-count="20">0</span><span class="stat__plus">+</span>
+        <p>Years in Business</p>
+      </div>
+      <div class="stat">
+        <span class="stat__num" data-count="2">0</span>
+        <p>Regions &mdash; LA &amp; Bay Area</p>
+      </div>
+      <div class="stat">
+        <span class="stat__num" data-count="24">0</span><span class="stat__plus">/7</span>
+        <p>Machine Access</p>
+      </div>
+      <div class="stat">
+        <span class="stat__num" data-count="100">0</span><span class="stat__plus">%</span>
+        <p>Cashless Ready</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PILLARS / KEYPAD ============ -->
+  <section class="pillars" id="pillars">
+    <h2 class="section__kicker">Why teams choose us</h2>
+    <h3 class="section__title">Five Reasons the Break Room<br>Runs Better With FCV</h3>
+
+    <div class="keypad">
+      <button class="key-card" style="--i:0">
+        <span class="key-card__code">A1</span>
+        <span class="key-card__icon">🕓</span>
+        <span class="key-card__title">24/7 Access</span>
+        <span class="key-card__desc">Snacks, drinks, and fresh food available around the clock &mdash; no vending-hour restrictions, ever.</span>
+      </button>
+      <button class="key-card" style="--i:1">
+        <span class="key-card__code">A2</span>
+        <span class="key-card__icon">📡</span>
+        <span class="key-card__title">Smart Machines</span>
+        <span class="key-card__desc">Touchscreens, cashless payment, and remote inventory monitoring keep machines stocked before they empty.</span>
+      </button>
+      <button class="key-card" style="--i:2">
+        <span class="key-card__code">A3</span>
+        <span class="key-card__icon">🌿</span>
+        <span class="key-card__title">Real Variety</span>
+        <span class="key-card__desc">From classic snacks to keto, vegan, and gluten-free &mdash; product mixed to fit every diet on your floor.</span>
+      </button>
+      <button class="key-card" style="--i:3">
+        <span class="key-card__code">A4</span>
+        <span class="key-card__icon">📍</span>
+        <span class="key-card__title">Any Location</span>
+        <span class="key-card__desc">Offices, hospitals, schools, transit hubs &mdash; if there's foot traffic, we can place a machine.</span>
+      </button>
+      <button class="key-card" style="--i:4">
+        <span class="key-card__code">A5</span>
+        <span class="key-card__icon">♻️</span>
+        <span class="key-card__title">Eco-Friendly</span>
+        <span class="key-card__desc">Energy-saving compressors and lighting cut power draw without cutting service.</span>
+      </button>
+      <a href="#contact" class="key-card key-card--cta" style="--i:5">
+        <span class="key-card__code">A6</span>
+        <span class="key-card__icon">→</span>
+        <span class="key-card__title">Your Location</span>
+        <span class="key-card__desc">Tell us your space and headcount &mdash; we'll design the right setup, free.</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES ============ -->
+  <section class="services" id="services">
+    <h2 class="section__kicker">The full menu</h2>
+    <h3 class="section__title">Everything Behind the Glass</h3>
+
+    <div class="service" id="vending">
+      <div class="service__tag">A1</div>
+      <div class="service__media" style="--tint:#C6362A">
+        <span>🥤</span><span>🍫</span><span>🥨</span>
+      </div>
+      <div class="service__copy">
+        <h4>Vending Machines</h4>
+        <p>Snack-only, beverage-only, or full combo machines &mdash; sized and stocked for your headcount, with custom product selection built around what your team actually eats.</p>
+        <ul class="service__list">
+          <li>Touchscreen &amp; cashless payment</li>
+          <li>Remote inventory monitoring</li>
+          <li>Snack, beverage &amp; combo formats</li>
+        </ul>
+        <a href="#contact" class="link-arrow">Configure a machine →</a>
+      </div>
+    </div>
+
+    <div class="service service--flip" id="markets">
+      <div class="service__tag">A2</div>
+      <div class="service__media" style="--tint:#E3A93B">
+        <span>🛒</span><span>🍇</span><span>🥪</span>
+      </div>
+      <div class="service__copy">
+        <h4>Micro-Markets</h4>
+        <p>Open-shelf, self-checkout markets that feel like a mini break-room store &mdash; fresh food, more selection, and a faster line than any machine.</p>
+        <ul class="service__list">
+          <li>Self-checkout kiosk</li>
+          <li>Fresh &amp; grab-and-go food</li>
+          <li>Open shelving, no glass between you and the product</li>
+        </ul>
+        <a href="#contact" class="link-arrow">Ask about micro-markets →</a>
+      </div>
+    </div>
+
+    <div class="service" id="coffee">
+      <div class="service__tag">A3</div>
+      <div class="service__media" style="--tint:#1C1C1C">
+        <span>☕️</span><span>🫘</span><span>🥛</span>
+      </div>
+      <div class="service__copy">
+        <h4>Office Coffee Service</h4>
+        <p>Single-cup brewers for small teams, full bean-to-cup systems for the whole floor. We handle the beans, the filters, and the maintenance calls.</p>
+        <ul class="service__list">
+          <li>Single-cup &amp; full-service brewing</li>
+          <li>Regular maintenance included</li>
+          <li>Cream, sugar &amp; supply restock</li>
+        </ul>
+        <a href="#contact" class="link-arrow">Brew it your way →</a>
+      </div>
+    </div>
+
+    <div class="service service--flip">
+      <div class="service__tag">A4</div>
+      <div class="service__media" style="--tint:#3F7D5C">
+        <span>🍎</span><span>🥗</span><span>🧃</span>
+      </div>
+      <div class="service__copy">
+        <h4>Healthy Options</h4>
+        <p>Nutritious snacks and beverages stocked alongside the classics, so every craving and every diet gets covered in the same machine.</p>
+        <ul class="service__list">
+          <li>Keto, vegan &amp; gluten-free picks</li>
+          <li>Low-sugar beverage lines</li>
+          <li>Rotated by what actually sells</li>
+        </ul>
+        <a href="#contact" class="link-arrow">Build a healthy mix →</a>
+      </div>
+    </div>
+
+    <div class="service">
+      <div class="service__tag">A5</div>
+      <div class="service__media" style="--tint:#3B5FC6">
+        <span>🎮</span><span>🎯</span><span>🕹️</span>
+      </div>
+      <div class="service__copy">
+        <h4>Entertainment Solutions</h4>
+        <p>Games and amusement offerings for breakrooms, lobbies, and common areas that want to give people a reason to actually take a break.</p>
+        <ul class="service__list">
+          <li>Arcade &amp; amusement units</li>
+          <li>Lobby &amp; common-area friendly</li>
+          <li>Full install &amp; upkeep</li>
+        </ul>
+        <a href="#contact" class="link-arrow">Talk options →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROCESS ============ -->
+  <section class="process">
+    <h2 class="section__kicker">How it works</h2>
+    <h3 class="section__title">Three Steps. Zero Cost to You.</h3>
+    <div class="receipt">
+      <div class="receipt__head">
+        <strong>FCV &mdash; SERVICE&nbsp;TICKET</strong>
+        <span>NO.&nbsp;001</span>
+      </div>
+      <div class="receipt__row">
+        <span class="receipt__step">01</span>
+        <div>
+          <h5>Free Walkthrough</h5>
+          <p>We assess your space, foot traffic, and team preferences &mdash; no obligation, no pressure.</p>
+        </div>
+      </div>
+      <div class="receipt__row">
+        <span class="receipt__step">02</span>
+        <div>
+          <h5>Custom Install</h5>
+          <p>Machines, market, or coffee station installed and stocked with product your team will actually use.</p>
+        </div>
+      </div>
+      <div class="receipt__row">
+        <span class="receipt__step">03</span>
+        <div>
+          <h5>We Maintain It</h5>
+          <p>Remote monitoring flags low stock before it happens. Restocks and repairs, handled.</p>
+        </div>
+      </div>
+      <div class="receipt__total">
+        <span>TOTAL&nbsp;COST&nbsp;TO&nbsp;YOU</span>
+        <strong>$0.00*</strong>
+      </div>
+      <p class="receipt__fine">*Standard vending &amp; micro-market install. Ask about office coffee equipment terms.</p>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIAL ============ -->
+  <section class="testimonial">
+    <div class="testi-slip">
+      <p class="testi-slip__quote">
+        &ldquo;They set up the machines, and I genuinely forgot vending was something I used to have to manage.
+        Restocks happen before we ever notice something's low.&rdquo;
+      </p>
+      <div class="testi-slip__meta">
+        <span>&mdash; Jane D.</span>
+        <span>Office Manager, Los Angeles</span>
+      </div>
+      <div class="testi-slip__stars">★★★★★</div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="faq" id="faq">
+    <h2 class="section__kicker">Questions</h2>
+    <h3 class="section__title">Frequently Asked</h3>
+
+    <div class="faq-list">
+      <div class="faq-item">
+        <button class="faq-item__q">
+          <span><em>A1</em>Is there really no cost to install a machine?</span>
+          <span class="faq-item__plus">+</span>
+        </button>
+        <div class="faq-item__a"><p>Correct &mdash; standard vending and micro-market installs are free for qualifying locations. We cover the equipment; you provide the space and the foot traffic.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-item__q">
+          <span><em>A2</em>What's the minimum headcount for a placement?</span>
+          <span class="faq-item__plus">+</span>
+        </button>
+        <div class="faq-item__a"><p>It varies by machine type and location &mdash; smaller offices often do well with a single combo machine, while larger floors may qualify for a full micro-market. We'll tell you honestly what fits during the walkthrough.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-item__q">
+          <span><em>A3</em>Do you handle restocking and repairs?</span>
+          <span class="faq-item__plus">+</span>
+        </button>
+        <div class="faq-item__a"><p>Yes. Remote monitoring alerts our team before machines run low, and service calls are part of the standard agreement &mdash; you shouldn't have to lift a finger.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-item__q">
+          <span><em>A4</em>Can we choose what products go in the machine?</span>
+          <span class="faq-item__plus">+</span>
+        </button>
+        <div class="faq-item__a"><p>Absolutely &mdash; product mix is built around your team, including healthy, keto, vegan, and gluten-free options, and adjusted over time based on what actually sells.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-item__q">
+          <span><em>A5</em>What areas do you service?</span>
+          <span class="faq-item__plus">+</span>
+        </button>
+        <div class="faq-item__a"><p>We currently operate across Los Angeles and the Bay Area, covering offices, hospitals, schools, and transportation hubs.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="contact" id="contact">
+    <div class="contact__inner">
+      <div class="contact__left">
+        <h2 class="section__kicker section__kicker--light">Let's get you stocked</h2>
+        <h3 class="section__title section__title--light">Press <span class="key key--sm">A5</span> to Talk to a Human</h3>
+        <p class="contact__sub">Free consultation, no obligation. Tell us about your space and we'll get back to you within one business day.</p>
+
+        <div class="contact__info">
+          <a href="tel:18443663887" class="contact__row">
+            <span class="contact__label">Call</span>
+            <span class="contact__value">+1&nbsp;844&#8209;366&#8209;3887</span>
+          </a>
+          <a href="tel:19173610000" class="contact__row">
+            <span class="contact__label">Or</span>
+            <span class="contact__value">(917)&nbsp;361&#8209;0000</span>
+          </a>
+          <a href="mailto:sales@fcvend.com" class="contact__row">
+            <span class="contact__label">Email</span>
+            <span class="contact__value">sales@fcvend.com</span>
+          </a>
+        </div>
+
+        <a href="#" class="link-arrow link-arrow--light">Download the brochure →</a>
+      </div>
+
+      <form class="contact__form" id="contactForm">
+        <div class="contact__slot">
+          <label for="cf-name">Name</label>
+          <input id="cf-name" name="name" type="text" placeholder="Jane Doe" required>
+        </div>
+        <div class="contact__slot">
+          <label for="cf-email">Work Email</label>
+          <input id="cf-email" name="email" type="email" placeholder="jane@company.com" required>
+        </div>
+        <div class="contact__slot">
+          <label for="cf-company">Company &amp; Location</label>
+          <input id="cf-company" name="company" type="text" placeholder="Acme Inc. — Los Angeles, CA">
+        </div>
+        <div class="contact__slot">
+          <label for="cf-msg">What are you looking for?</label>
+          <textarea id="cf-msg" name="message" rows="3" placeholder="Vending machine for a 40-person office…"></textarea>
+        </div>
+        <button type="submit" class="btn btn--vend btn--lg btn--block">
+          <span>Insert Request</span>
+        </button>
+        <p class="contact__note" id="contactNote">We'll never share your info. Response within 1 business day.</p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__brand">
+      <span class="nav__badge">FCV</span>
+      <p>First Choice Vending &amp; Amusements<br>Los Angeles &amp; The Bay Area</p>
+    </div>
+    <nav class="footer__links">
+      <a href="#vending">Vending</a>
+      <a href="#markets">Micro-Markets</a>
+      <a href="#coffee">Office Coffee</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="footer__slot" aria-hidden="true">
+      <span>COIN&nbsp;RETURN</span>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <span>© 2026 First Choice Vending &amp; Amusements. All rights reserved.</span>
+    <span>Unofficial concept redesign — not affiliated with fcvend.com</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
