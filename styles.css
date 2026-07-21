@@ -121,14 +121,7 @@ h1,h2,h3,h4,h5{ margin:0; font-family:var(--font-display); font-weight:400; lett
   display:flex; align-items:center; gap:1.6rem;
 }
 .nav__brand{ display:flex; align-items:center; gap:.7rem; margin-right:auto; }
-.nav__badge{
-  font-family:var(--font-display); font-size:1.2rem; letter-spacing:.02em;
-  background:var(--ink); color:var(--cream); width:2.6rem; height:2.6rem;
-  border-radius:8px; display:flex; align-items:center; justify-content:center;
-  box-shadow:3px 3px 0 var(--red);
-}
-.nav__brandtext{ font-family:var(--font-mono); font-size:.7rem; line-height:1.35; font-weight:700; letter-spacing:.04em; }
-.nav__brandtext span{ display:block; font-weight:500; color:var(--ink-soft); text-transform:none; letter-spacing:0; }
+.nav__logo{ height:2.9rem; width:auto; display:block; }
 
 .nav__links{ display:flex; align-items:center; gap:1.5rem; }
 .nav__links a{
@@ -431,6 +424,7 @@ h1,h2,h3,h4,h5{ margin:0; font-family:var(--font-display); font-weight:400; lett
   display:flex; flex-wrap:wrap; gap:2.5rem; align-items:center; justify-content:space-between;
 }
 .footer__brand{ display:flex; align-items:center; gap:.9rem; }
+.footer__logo{ height:3.4rem; width:auto; display:block; }
 .footer__brand p{ margin:0; font-size:.78rem; line-height:1.5; color:#cfc8b3; }
 .footer__links{ display:flex; flex-wrap:wrap; gap:1.4rem; font-size:.8rem; font-weight:600; text-transform:uppercase; letter-spacing:.03em; }
 .footer__links a:hover{ color:var(--mustard); }
